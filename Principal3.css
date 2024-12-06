@@ -1,0 +1,151 @@
+main
+{
+    margin-top: 150px;
+    text-align: center;
+    display: block;
+    unicode-bidi: isolate;
+
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+main .Logo {
+    width: 600px;
+    height: 200px;
+    margin-bottom: 35px;
+    font-size: 1.5rem;
+    padding: 25px;
+    position: fixed;
+    right: 290px;
+    top: 30px;
+}
+
+
+.Bus {  
+    position: relative; /* Necesario para posicionar el input y la imagen dentro de este contenedor */  
+}  
+
+.input-container {  
+    position: relative; /* Permite posicionar elementos dentro de este contenedor */  
+    width: 840px; /* Ancho del contenedor del input */  
+    height: 35px; /* Altura del contenedor */  
+}  
+
+
+
+input
+{
+    position: relative; /* Cambiado a relative para que se alinee con el contenedor */  
+    width: 100%; /* Ancho completo del contenedor */  
+    height: 35px;  
+    border-radius: 20px;  
+    background-color: rgba(250, 250, 250, 0.4); /* Fondo blanco con 50% de transparencia */  
+    border: none; /* Cambiado a 'none' para quitar el borde */  
+    outline: none;  
+    font-family: 'Times New Roman', Times, serif;  
+    color: black;  
+    font-size: 30px;  
+    padding-left: 40px; /* Espacio para el ícono a la izquierda */  
+    padding-right: 40px; /* Espacio para el ícono a la derecha */  
+    z-index: 1; /* Asegúrate de que el input esté detrás de los iconos */  
+}
+
+input::placeholder
+{
+    font-size: 20px;
+    color: blue;
+}
+
+.Lup {  
+    position: absolute;  
+    left: 10px; /* Posición desde la izquierda */  
+    top: 50%; /* Centrado verticalmente */  
+    transform: translateY(-50%); /* Centro exacto */  
+    width: 20px; /* Ajusta el tamaño */  
+    height: 20px; /* Ajusta el tamaño */  
+    background-image: url('https://cdn.icon-icons.com/icons2/933/PNG/512/searching-magnifying-glass_icon-icons.com_72568.png'); /* Cambia la URL */  
+    background-size: contain; /* Ajusta tamaño */  
+    background-repeat: no-repeat; /* No se repite */  
+    cursor: pointer; /* Indica que es un elemento clicable */  
+    z-index: 2; /* Asegura que esté por encima del input */  
+}  
+
+.Micro {  
+    position: absolute;  
+    right: 50px; /* Ajusta la posición desde la derecha */  
+    top: 50%; /* Centrado verticalmente */  
+    transform: translateY(-50%); /* Centro exacto */  
+    width: 20px; /* Ajusta el tamaño */  
+    height: 20px; /* Ajusta el tamaño */  
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png'); /* Cambia la URL */  
+    background-size: contain; /* Ajusta tamaño */  
+    background-repeat: no-repeat; /* No se repite */  
+    cursor: pointer; /* Indica que es un elemento clicable */  
+    z-index: 2; /* Asegura que esté por encima del input */  
+}  
+
+.Cam {  
+    position: absolute;  
+    right: 10px; /* Ajusta la posición desde la derecha */  
+    top: 50%; /* Centrado verticalmente */  
+    transform: translateY(-50%); /* Centro exacto */  
+    width: 20px; /* Ajusta el tamaño */  
+    height: 20px; /* Ajusta el tamaño */  
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Lens_Icon.svg/800px-Google_Lens_Icon.svg.png'); /* Cambia la URL */  
+    background-size: contain; /* Ajusta el tamaño */  
+    background-repeat: no-repeat; /* No se repite */  
+    cursor: pointer; /* Indica que es un elemento clicable */  
+    z-index: 2; /* Asegura que esté por encima del input */  
+}  
+.BOT
+{  
+    display: flex; /* Usa flexbox para alinear los botones */  
+    justify-content: center; /* Centra los elementos horizontalmente */  
+    gap: 59px; /* Espacio entre los botones */  
+    margin: 10px; /* Margen en la parte exterior del contenedor */  
+} 
+
+.Clima
+{
+    border-radius: 15px; /* Bordes muy redondeados */  
+    padding: 8px 130px; 
+    border: none; /* Cambiado a 'none' para quitar el borde */  
+    outline: none; 
+    font-size: 16px; /* Tamaño de fuente */  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(135deg, #ff9999b8, #c0efff); /* Gradiente de color */  
+    color: rgb(0, 0, 0);  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */  
+}
+.Clima:hover {  
+    background: linear-gradient(135deg, #d43131bc, #d48031bc, #d4c631bc, #44d431bc, #314cd4bc); /* Cambia el gradiente al pasar el mouse */  
+    transform: scale(1.35); /* Aumenta ligeramente el tamaño */ 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5); /* Sombra en el botón */  
+
+}  
+.Clima:active {  
+    transform: scale(0.85); /* Reduce el tamaño al presionar */  
+}  
+
+.Noticias
+{
+    border-radius: 15px; /* Bordes muy redondeados */  
+    padding: 8px 130px; 
+    border: none; /* Cambiado a 'none' para quitar el borde */  
+    outline: none; 
+    font-size: 16px; /* Tamaño de fuente */  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(135deg, #ff9999b8, #c0efff); /* Gradiente de color */  
+    color: rgb(0, 0, 0);  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */  
+}
+.Noticias:hover {  
+    background: linear-gradient(135deg, #d43131bc, #d48031bc, #d4c631bc, #44d431bc, #314cd4bc); /* Cambia el gradiente al pasar el mouse */  
+    transform: scale(1.35); /* Aumenta ligeramente el tamaño */ 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5); /* Sombra en el botón */  
+
+}  
+.Noticias:active {  
+    transform: scale(0.85); /* Reduce el tamaño al presionar */  
+}  

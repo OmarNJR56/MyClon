@@ -1,0 +1,60 @@
+header nav ul 
+{
+    list-style: none;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    border: 1px;
+    justify-content: space-between; /* Espacia los elementos: primero a la izquierda y los demás a la derecha */  
+    padding: 0;                  /* Eliminar padding por defecto */  
+    margin: 0;                   /* Eliminar margen por defecto */  
+}
+
+header nav .na {  
+    margin-right: auto;         /* Empuja el resto de los elementos hacia la derecha */  
+}  
+
+header nav .na a
+{ 
+    background-image: url(https://img.icons8.com/fluent/512/google-maps-new.png);  
+    background-repeat: no-repeat;  
+  /* Centrar imagen dentro del contenedor */  
+    background-size: contain;  
+    width: 50px; /* Ancho del ícono */  
+    height: 58px; /* Alto del ícono */
+    display: block;
+}
+
+header nav .Me {  
+    margin-left: 35px; /* Espacio entre elementos a la derecha */  
+}  
+header nav .Me a {  
+    text-align: right;  /* Alinea el texto en los enlaces a la derecha. */  
+    padding: 10px;      /* Añadir padding para hacer clic más fácil */  
+    text-decoration: none;
+    color: black;
+}  
+header nav .Me a:hover {  
+    color: red; /* Cambia el color al pasar el ratón */  
+}  
+header nav .Nu a
+{ 
+    background-image: url(https://icons.veryicon.com/png/o/miscellaneous/offerino-icons/app-menu.png);  
+    background-repeat: no-repeat;  
+  /* Centrar imagen dentro del contenedor */  
+    background-size: contain;  
+    width: 40px; /* Ancho del ícono */  
+    height: 48px; /* Alto del ícono */
+    display: block;
+}
+
+header nav .Us a
+{ 
+    background-image: url(https://cdn-icons-png.flaticon.com/512/6596/6596121.png);  
+    background-repeat: no-repeat;  
+  /* Centrar imagen dentro del contenedor */  
+    background-size: contain;  
+    width: 40px; /* Ancho del ícono */  
+    height: 48px; /* Alto del ícono */
+    display: block;
+}

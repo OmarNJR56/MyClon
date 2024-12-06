@@ -1,0 +1,42 @@
+footer ul li a
+{
+    line-height: 20px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    /* Eliminar padding por defecto */  
+    margin: auto;
+    color: rgb(0, 0, 0);   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between; /* Espacio entre las columnas */  
+
+}
+
+.Izquierda
+{
+    padding: 0; /* Eliminar el padding por defecto */  
+    margin: 0; /* Eliminar el margen por defecto */ 
+    display: flex;
+    list-style: none;
+    justify-self: left;
+
+}
+
+.Izquierda li
+{
+    margin-right: 30px;
+}
+
+.Derecha
+{
+    padding: 0; /* Eliminar el padding por defecto */  
+    margin: 0; /* Eliminar el margen por defecto */ 
+    display: flex;
+    list-style: none;
+    justify-self: right;
+}
+
+.Derecha li
+{
+    margin-right: 30px;
+}
