@@ -1,6 +1,6 @@
 header nav ul 
-{
-    list-style: none;
+{ /*Sin mas cometario*/
+    list-style: none; 
     display: flex;
     height: 100px;
     width: 100%;
@@ -9,11 +9,9 @@ header nav ul
     padding: 0;                  /* Eliminar padding por defecto */  
     margin: 0;                   /* Eliminar margen por defecto */  
 }
-
 header nav .na {  
     margin-right: auto;         /* Empuja el resto de los elementos hacia la derecha */  
 }  
-
 header nav .na a
 { 
     background-image: url(https://img.icons8.com/fluent/512/google-maps-new.png);  
