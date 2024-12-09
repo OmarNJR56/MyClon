@@ -20,9 +20,6 @@ main .Logo {
     right: 290px;
     top: 30px;
 }
-
-
-
 .Bus {  
     position: relative; /* Necesario para posicionar el input y la imagen dentro de este contenedor */  
 }  

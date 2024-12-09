@@ -21,12 +21,10 @@ footer ul li a
     justify-self: left;
 
 }
-
 .Izquierda li
 {
     margin-right: 30px;
 }
-
 .Derecha
 {
     padding: 0; /* Eliminar el padding por defecto */  
